@@ -1,4 +1,4 @@
-#include "sort.h"S
+#include "sort.h"
 /**
 *swap - This is the postions of two ele in an array
 *@array: An array
