@@ -32,7 +32,7 @@ gp = 3 * gp + 1;
 while (gp >= 1)
 {
 for (m = gp; m < size; m++)
-for (indx = i; indx >= gp &&
+for (indx = m; indx >= gp &&
 (array[indx] < array[indx - gp]); indx -= gp)
 swap(array, indx, indx - gp);
 print_array(array, size);
