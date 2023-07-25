@@ -62,7 +62,7 @@ void qs(int *array, ssize_t first, ssize_t last, int size)
 /**
  *quick_sort_hoare - this organizes the place for the algorthhm
  *@array: An array
- *@size: the size of an array 
+ *@size: the size of an array
  */
 void quick_sort_hoare(int *array, size_t size)
 {

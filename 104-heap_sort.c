@@ -15,8 +15,8 @@ void swap(int *a, int *b)
 }
 
 /**
- * maxHeapify - This is the main function to heapify the maximum Heap. 
- * The function perceives that everything under the given 
+ * maxHeapify - This is the main function to heapify the maximum Heap.
+ * The function perceives that everything under the given
  * root (elem at indx idx)
  * @array: array
  * @size: The size of the array for print
@@ -73,7 +73,7 @@ void heap_sort(int *array, size_t size)
 	for (m = (size - 1); m > 0; --m)
 	{
 		/**
-		* The largest item in Heap is being kept at the root. 
+		* The largest item in Heap is being kept at the root.
 		*/
 		swap(&array[0], &array[m]);
 		print_array(array, size);

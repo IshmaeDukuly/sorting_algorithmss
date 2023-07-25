@@ -3,7 +3,7 @@
  * bubble_sort - This is the sorting of
  * array elements from the minimum to the maximum val
  * @array: array
- * @size: The size of an array 
+ * @size: The size of an array
  */
 void bubble_sort(int *array, size_t size)
 {

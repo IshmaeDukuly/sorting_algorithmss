@@ -16,8 +16,8 @@ void swap(int *array, int item1, int item2)
 	array[item2] = tmp;
 }
 /**
- * shell_sort - this is function that sorts an array of integers 
- * orderly using the Shell sort algorithm Method, 
+ * shell_sort - this is function that sorts an array of integers
+ * orderly using the Shell sort algorithm Method,
  * @size: size of the array
  * @array: The list numbers
  */
