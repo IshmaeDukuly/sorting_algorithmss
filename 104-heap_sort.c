@@ -60,7 +60,7 @@ void heap_sort(int *array, size_t size)
 	 * This Starts from bottom and right internal mode and heapify are all
      * internal modes in bottom up way
 	 */
-	if (array == '\0' || size < 2)
+	if (array == NULL || size < 2)
 		return;
 
 	for (m = (size - 2) / 2; m >= 0; --m)
