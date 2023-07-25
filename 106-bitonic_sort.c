@@ -32,7 +32,7 @@ void merge(int arr[], int low, int nelemnt, int order)
 	if (nelemnt > 1)
 	{
 		mid = nelemnt / 2;
-		for (i = low; m < low + mid; m++)
+		for (m = low; m < low + mid; m++)
 			swap(arr, m, m + mid, order);
 		merge(arr, low, mid, order);
 		merge(arr, low + mid, mid, order);
