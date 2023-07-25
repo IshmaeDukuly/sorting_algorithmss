@@ -36,14 +36,14 @@ void countSort(int *arr, size_t n, int exp, int *output)
 	* Change count[m] so that count[m] now contains actual
     * position of this digit in output[]
 	*/
-	for (i = 1; m < 10; m++)
+	for (m = 1; m < 10; m++)
 		count[m] += count[m - 1];
 
 	/* Build the output array */
 	for (m = n - 1; m >= 0; m--)
 	{
 		output[count[(arr[m] / exp) % 10] - 1] = arr[m];
-		count[(arr[i] / exp) % 10]--;
+		count[(arr[m] / exp) % 10]--;
 	}
 
 	/*
