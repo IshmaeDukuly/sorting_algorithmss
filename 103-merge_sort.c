@@ -14,7 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return ('\0');
 	p = malloc(nmemb * size);
-	if (p == '\0')
+	if (p == NULL)
 		return ('\0');
 	for (m = 0; m < (nmemb * size); m++)
 		p[m] = '\0';
@@ -55,7 +55,7 @@ void merge(int *arr, int *tmp, int start, int mid, int end)
 	}
 	/* merging the remaining left an array into the main array*/
 	while (left < size_left)
-		arr[i] = array_left[left], left++, m++;
+		arr[m] = array_left[left], left++, m++;
 	/* merging remaining right an array into to the main array*/
 	while (right < size_right)
 		arr[m] = array_right[right], right++, m++;
