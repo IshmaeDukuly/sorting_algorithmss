@@ -10,7 +10,7 @@ int _strcmp(const char *str1, char *str2)
 {
 size_t m = 0;
 
-if (str1 == '\0')
+if (str1 == NULL)
 return (0);
 while (str1[m])
 {
